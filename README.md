@@ -16,9 +16,11 @@ Generic code to use the peripherals is located in the `lib` directory. Current s
 | ------------- | -------------        |
 | SPI           | Initial bringup done |
 | GPIO          | Initial bringup done |
-| RCU           | WIP                  |
+| RCU           | Initial bringup done |
+| RTC           | Initial bringup done |
+| PMU           | Initial bringup done |
+| EXTI          | Initial bringup done |
 | I2C           | WIP                  |
-| RTC           | WIP                  |
 | ADC           | Planned              |
 | USB           | Planned              |
 
