@@ -25,6 +25,16 @@ void systick_isr()
     ticks++;
 }
 
+void systick_enable()
+{
+    systick->syst_ctl_stat |= (1 << 0);
+}
+
+void systick_disable()
+{
+    systick->syst_ctl_stat &= ~(1 << 0);
+}
+
 void systick_delay_ms(uint32_t ms)
 {
     uint64_t delta = ticks + ms;

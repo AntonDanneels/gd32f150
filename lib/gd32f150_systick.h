@@ -7,4 +7,7 @@ void systick_isr();
 void systick_init();
 void systick_delay_ms(uint32_t ms);
 
+void systick_enable();
+void systick_disable();
+
 #endif
